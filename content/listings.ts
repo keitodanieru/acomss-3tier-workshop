@@ -44,42 +44,32 @@ export interface Listing {
 
 export const listings: Listing[] = [
   {
-    slug: "it-strategy-consulting",
-    title: "IT Strategy Consulting",
+    slug: "physical-exam-consulting",
+    title: "Physical Exam Consulting",
     category: "CONSULTING",
     description:
-      "Work with our consultants to map your technology roadmap, assess risk, " +
-      "and plan the systems your business needs over the next 12 months.",
+      "Assess your physical health with us. " +
+      "Book now!",
     inquiry_type: "INQUIRE",
-    image_url: "/images/placeholder-consulting.svg",
+    image_url: "/images/physical.jpg",
   },
   {
-    slug: "business-website-build",
-    title: "Business Website Build",
-    category: "WEB_DEV",
-    description:
-      "A fast, modern marketing website with a content system you can update " +
-      "yourself. Request a quote and we will scope it with you.",
-    inquiry_type: "QUOTE",
-    image_url: "/images/placeholder-web-dev.svg",
-  },
-  {
-    slug: "inventory-management-app",
-    title: "Custom Inventory Management App",
-    category: "CUSTOM_SOFTWARE",
-    description:
-      "A tailored inventory and ordering application built around your workflow. " +
-      "Book a live demo to see a working example.",
-    inquiry_type: "DEMO",
-    image_url: "/images/placeholder-custom-software.svg",
-  },
-   {
-    slug: "Tenz Coaching,",
-    title: "Banorant Coaching ",
+    slug: "mental-health-consulting",
+    title: "Mental Health Consulting",
     category: "CONSULTING",
     description:
-      "From bronze to radiant.",
+      "Support your mental health journey with our expert consultants. " +
+      "Book a session today.",
+    inquiry_type: "QUOTE",
+    image_url: "/images/mental.jpg",
+  },
+  {
+    slug: "emotional-wellness-consulting",
+    title: "Emotional Wellness Consulting",
+    category: "CONSULTING",
+    description:
+      "Work with our consultants to improve your emotional well-being and develop healthy coping strategies. ",
     inquiry_type: "DEMO",
-    image_url: "/images/Banorant.png",
+    image_url: "/images/emotional.jpg",
   },
 ];
